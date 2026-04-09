@@ -296,19 +296,27 @@ export default function App() {
                         <td className="py-3">
                           <div className="font-medium text-white">단품 시스템 구축</div>
                           <div className="text-white/30 text-xs mt-0.5">업무 흐름 진단 → 단일 프로세스 설계 → 시스템 구현/배포</div>
+                          <div className="mt-2 space-y-1">
+                            <div className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-ilbirong flex-shrink-0" /><span className="text-white/40 text-xs">예: 일비롱 견적 계산기, 온라인 주문서</span></div>
+                            <div className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-adlumin flex-shrink-0" /><span className="text-white/40 text-xs">예: 애드루민 체험단 모집 사이트</span></div>
+                          </div>
                         </td>
-                        <td className="text-right text-white/40">500~1,000만</td>
-                        <td className="text-right">300만 원</td>
-                        <td className="text-right text-gold font-bold">210만 원</td>
+                        <td className="text-right text-white/40 align-top pt-3">500~1,000만</td>
+                        <td className="text-right align-top pt-3">300만 원</td>
+                        <td className="text-right text-gold font-bold align-top pt-3">210만 원</td>
                       </tr>
                       <tr className="border-b border-white/5">
                         <td className="py-3">
                           <div className="font-medium text-white">풀 시스템 구축</div>
                           <div className="text-white/30 text-xs mt-0.5">전체 업무 구조 분석 → 통합 시스템 설계 → 구현/연동/배포</div>
+                          <div className="mt-2 space-y-1">
+                            <div className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-ilbirong flex-shrink-0" /><span className="text-white/40 text-xs">예: 일비롱 캔바 + 계산기 + 주문서 통합 연동</span></div>
+                            <div className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-adlumin flex-shrink-0" /><span className="text-white/40 text-xs">예: 애드루민 관리 시스템 + 체험단 사이트 + DB 연동 전체</span></div>
+                          </div>
                         </td>
-                        <td className="text-right text-white/40">1,000~2,000만</td>
-                        <td className="text-right">800만 원</td>
-                        <td className="text-right text-gold font-bold">560만 원</td>
+                        <td className="text-right text-white/40 align-top pt-3">1,000~2,000만</td>
+                        <td className="text-right align-top pt-3">800만 원</td>
+                        <td className="text-right text-gold font-bold align-top pt-3">560만 원</td>
                       </tr>
                       <tr className="border-b border-white/5">
                         <td className="py-3">
