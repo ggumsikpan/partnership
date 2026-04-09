@@ -1,0 +1,26 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css');
+
+@import "tailwindcss";
+
+@theme {
+  --color-charcoal: #1a1a2e;
+  --color-navy: #16213e;
+  --color-slate-deep: #0f3460;
+  --color-accent: #e94560;
+  --color-accent-soft: #ff6b6b;
+  --color-gold: #f0c040;
+  --color-gold-soft: #ffeaa7;
+  --color-cream: #faf9f6;
+  --color-warm: #fff8f0;
+  --color-ilbirong: #8BC34A;
+  --color-adlumin: #FF4081;
+  --color-ggumsik: #FF8C00;
+  --font-family-pretendard: 'Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: var(--font-family-pretendard);
+  -webkit-font-smoothing: antialiased;
+}
