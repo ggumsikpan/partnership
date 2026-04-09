@@ -341,6 +341,7 @@ export default function App() {
                 </div>
                 <p className="text-white/25 text-xs mt-2">* 시장 평균: IT 에이전시/프리랜서 기준</p>
                 <p className="text-white/30 text-xs mt-3">* 클로드 계정비, 서버비 등 실비는 별도</p>
+                <p className="text-white/30 text-xs mt-1">* 시스템 구축 완료 후, 안정적인 운영을 위해 유지보수 케어로 전환됩니다</p>
               </div>
             </FadeIn>
 
