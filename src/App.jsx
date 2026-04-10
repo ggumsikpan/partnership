@@ -419,7 +419,7 @@ export default function App() {
         <div className="max-w-3xl mx-auto px-5 text-center">
           <FadeIn>
             <div className="mb-8">
-              <img src="/partners.jpg" alt="일비롱 x 애드루민 x 꿈식판" className="w-64 h-64 object-contain mx-auto rounded-2xl" />
+              <img src={`${import.meta.env.BASE_URL}partners.jpg`} alt="일비롱 x 애드루민 x 꿈식판" className="w-64 h-64 object-contain mx-auto rounded-2xl" />
             </div>
           </FadeIn>
           <FadeIn delay={0.1}>
